@@ -4,6 +4,6 @@
 
 @layer base {
     body {
-        @apply bg-gradient-to-br from-[#f5f7fa] to-[#c3cfe2] h-screen
+        @apply bg-gradient-to-br from-[#f5f7fa] to-[#c3cfe2] bg-fixed h-full pb-6;
     }
 }
