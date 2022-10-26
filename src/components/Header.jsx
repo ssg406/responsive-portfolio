@@ -28,7 +28,7 @@ const Header = () => {
         <ul className="text-center">
           {
             navLinks.map(({name,path}) => {
-             return <li className='active:bg-slate-400 p-1 active:rounded-md transition-all'><Link className='font-bold uppercase' to={path}>{name}</Link></li>
+             return <li className='active:bg-slate-400 p-1 active:rounded-md transition-all'><Link className='font-bold uppercase' to={path} onClick={() => setShowMenu(false)}>{name}</Link></li>
             })
           }
         </ul>
