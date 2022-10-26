@@ -6,5 +6,7 @@ import ProjectTag from './ProjectTag';
 import Skill from './Skill';
 import Header from './Header';
 import Footer from './Footer';
+import MobileNav from './MobileNav';
+import FullNav from './FullNav';
 
-export { ContactMethod, DynamicIcon, Education, Project, ProjectTag, Skill, Header, Footer };
+export { ContactMethod, DynamicIcon, Education, Project, ProjectTag, Skill, Header, Footer, MobileNav, FullNav };
