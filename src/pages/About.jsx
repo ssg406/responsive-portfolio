@@ -20,7 +20,7 @@ const About = () => {
           Skills
         </h3>
         {skills.map((skillData) => {
-          return <Skill {...skillData} key={eduData.id} />;
+          return <Skill {...skillData} key={skillData.id} />;
         })}
       </section>
     </main>
